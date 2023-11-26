@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to ChatTime</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .main-container {
+            width: 80%;
+            max-width: 1200px;
+            text-align: center;
+        }
+        .header {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
+        .free-text {
+            font-size: 5em;
+            margin-bottom: 0.5em;
+        }
+        .sidebar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 200px;
+            height: 100%;
+            background-color: #ddd;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .button {
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">Welcome to ChatTime</div>
+        <div class="free-text">Free</div>
+    </div>
+    <div class="sidebar">
+        <a href="/signup" class="button">Signup</a>
+        <a href="/login" class="button">Login</a>
+    </div>
+</body>
+</html>
